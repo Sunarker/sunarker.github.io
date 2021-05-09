@@ -36,6 +36,7 @@ body {
 	padding-left: 1.0em;
 	padding-right: 1.0em;
     border: none;
+    width: auto;
     background: white;
     text-align: left;
     vertical-align: top;
