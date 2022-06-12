@@ -1,91 +1,106 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" href="doc.css" type="text/css" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
     <title>Jiangchao Yao</title>
 </head>
 <body>
+    <h1 style="padding-left: 0.5em">Jiangchao Yao</h1>
+    <hr>
     <table id="tlayout">
-        <div id="toptitle">
-            <h1 style="padding-left: 0.5em">Jiangchao Yao </h1>
-        </div>
-
         <td id="layout-menu">
-<!--            <div class="menu-category">homepage</div>-->
             <div class="menu-item"><a href="index.html" class="current">Home</a></div>
+            <div class="menu-item"><a href="publications.html" class="current">Publications</a>
         </td>
 
         <td id="layout-content">
-            <p>
-                <b>Jiangchao Yao</b>
-                <br /><br />
-                Assistant Professor @ Electronic Engineering
-                <br />
-                CMIC, Shanghai Jiao Tong University, China
-                <br />
-                Email: Sunarker[at]sjtu.edu.cn
-                <br />
-                [<a href="https://scholar.google.com/citations?user=w8oDh9QAAAAJ&hl=zh-CN">Google Scholar</a>] [<a href="https://github.com/Sunarker">Github</a>]
-            </p>
+            <h1 style="margin-top: 0em">Home</h1><br>
+            <table class="imgtable">
+                <tbody>
+                    <tr valign="top">
+                        <td><img src="./figure.jpg" alt="Jiangchao Yao" height="200" width="140"></td>
+                        <td align="left">
+                            <p>
+                                <span style="font-size: 120%"> <b>Jiangchao Yao</b> </span>
+                            </p>
+                            <p>
+                                Assistant Professor @ Electronic Engineering
+                                <br />
+                                Cooperative Medianet Innovation Center
+                                <br /> 
+                                Shanghai Jiao Tong University, China
+                                <br />
+                            </p>
+                            <p>
+                                Email: Sunarker[at]sjtu.edu.cn
+                                <br />
+                                [<a href="https://scholar.google.com/citations?user=w8oDh9QAAAAJ&hl=zh-CN">Google Scholar</a>] [<a href="https://github.com/Sunarker">Github</a>]
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
 
             <div>
                 <h2>
-                    About me
+                    <hr>
+                    Research Interests
                 </h2>
-                Jiangchao Yao is currently a tenure-track assistant professor in Cooperative Medianet Innovation Center, Shanghai Jiao Tong University.
-                Before that, Dr. Yao has been a researcher in Data Analytics and Intelligence Lab, DAMO Academy, Alibaba Group. He received his joint PhD degree
-                in Shanghai Jiao Tong University under the supervision of <a href="https://mediabrain.sjtu.edu.cn/yazhang/">Ya Zhang</a> and University of Technology Sydney under the
-                Supervision of <a href="https://www.a-star.edu.sg/cfar/about-cfar/management/prof-ivor-tsang">Ivor W. Tsang</a>. He got the bachelor degree in South China University of Technology.
-                <br />
-                <br />
-                My research targets to develop industrial machine learning algorithms applied to the general real-world applications. Currently, I focus on the <b>robustness</b> and <b>privacy</b> issues of machine learning algorithms.
+                <p> My interests lie on <em>Trustworthty Machine Learning and Reasoning</em>, making machine learning robust, interpretable and scalable to real-world applications. </p>
+                <ul>
+                    <li>
+                        <p> Label-Noise and Adversarial Robust Machine Learning </p>
+                    </li>
+                    <li>
+                        <p> Centralized and Decentralized Class-Imbalance Learning </p>
+                    </li>
+                    <li>
+                        <p> Closed-Set and Open-Set Representative Learning </p>
+                    </li>
+                </ul>
+                <p>Welcome the self-motivated students to join our team.</p>
             </div>
 
-            <h2>Selected Publications </h2>
-            [* indicate equal contribution]
-            <ul>
-                <li><p>Device-Cloud Collaborative Recommendation via Meta Controller<br>
-                    <b>J. Yao</b>, F. Wang, X. Ding, S. Chen, B. Han, J. Zhou, H. Yang<br>
-                    ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD'22)
-                </p>
-                </li>
-                <li><p>Edge-Cloud Polarization and Collaboration: A Comprehensive Survey for AI<br>
-                    <b>J. Yao</b>, S, Zhang, Y, Yao, F. Wang, J. Ma, J. Zhang, Y. Chu, L. Ji, K. Jia, T. Shen, A. Wu, F. Zhang, Z. Tan, K. Kuang, C. Wu, F. Wu, J. Zhou, H. Yang <br>
-                    IEEE Transactions on Knowledge and Data Engineering (TKDE) (2022)
-                </p>
-                </li>
-                <li><p>Device-Cloud Collaborative Learning for Recommendation<br>
-                    <b>J. Yao*</b>, F. Wang*, K. Jia*, B. Han, J. Zhou, H. Yang.<br>
-                    ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD'21)
-                </p>
-                </li>
-                <li><p>Learning with Group Noise.<br>
-                    Q Wang*, <b>J. Yao*</b>, C. Gong, T. Liu, M. Gong, H. Yang, B. Han.<br>
-                    AAAI Conference on Artificial Intelligence (AAAI'21)
-                </p>
-                </li>
-                <li><p>Safeguarded Dynamic Label Regression for Noisy Supervision.<br>
-                    <b>J. Yao</b>, H. Wu, Y. Zhang, I. W. Tsang, and J. Sun.<br>
-                    AAAI Conference on Artificial Intelligence (AAAI'19)
-                </p>
-                </li>
-                <li><p>Masking: A New Perspective of Noisy Supervision.<br>
-                    B. Han*, <b>J. Yao*</b>, G. Niu, M. Zhou, I.W. Tsang, Y. Zhang, and M. Sugiyama.<br>
-                    Advances on Neural Information Processing Systems 31 (NeurIPS'18)
-                </p>
-                </li>
-                <li><p>Deep Learning from Noisy Labels with Quality Embedding.<br>
-                    <b>J. Yao</b>, J. Wang, I. W. Tsang, Y. Zhang, J. Sun, C. Zhang, and R. Zhang <br>
-                    IEEE Transactions on Image Processing (TIP) 28.4 (2018): 1909-1922.
-                </p>
-                </li>
-                <li><p>Joint Latent Dirichlet Allocation for Social Tags.<br>
-                    <b>J. Yao</b>, Y. Wang, Y. Zhang, J. Sun, and J. Zhou <br>
-                    IEEE Transactions on Multimedia (TMM) 20.1 (2017): 224-237.
-                </p>
-                </li>
-            </ul>
+            <div>
+                <h2>
+                    <hr>
+                    Job Experience
+                </h2>
+                <ul>
+                    <li>
+                        <p><b> Tenure-Track Assistant Professor </b> (April, 2022 -- Now) <br> 
+                        Cooperative Medianet Innovation Center, Shanghai Jiao Tong University</p>
+                    </li>
+                    <li>
+                        <p> <b> Algorithm Expert </b> (August, 2019 -- March, 2022) <br>
+                        Data Analytics and Intelligence Lab, DAMO Academy, Alibaba Group </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>
+                    <hr>
+                    Education
+                </h2>
+                <ul>
+                    <li>
+                        <p> <b> Doctor of Engineering </b> (September, 2019) <br> 
+                            Department of Electronic Engineering, Shanghai Jiao Tong University <br>
+                            Supervised by <a href="https://mediabrain.sjtu.edu.cn/yazhang/">Ya Zhang</a></p>
+                    </li>
+                    <li>
+                        <p> <b> Doctor of Philosophy </b> (September, 2019) <br> 
+                            Faculty of Engineering and Information Technology, University of Technology Sydney <br>
+                            Supervised by <a href="https://www.a-star.edu.sg/cfar/about-cfar/management/prof-ivor-tsang">Ivor W. Tsang</a></p>
+                    </li>
+                    <li>
+                        <p> <b> Bachelor of Engineering </b> (June, 2013) <br> 
+                            Elite Class, Department of Information Engineering, South China University of Technology</p>
+                    </li>
+                </ul>
+            </div>
+
         </td>
 
     </table>
